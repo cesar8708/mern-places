@@ -1,7 +1,9 @@
 import React from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+const App=() => {
+  return <Router>
 
-function App() {
-  return <h1>Let's Start!</h1>;
+  </Router>;
 }
 
 export default App;
