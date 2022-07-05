@@ -8,9 +8,9 @@ const images = [
 
 const Users = () => {
   const USERS = [
-    { id: 1, name: "Cesar Meza", image: images[0], places: 1 },
-    { id: 2, name: "Leidy Quiroz", image: images[1], places: 2 },
-    { id: 3, name: "Nicolás Meza", image: images[2], places: 3 },
+    { id: 'u1', name: "Cesar Meza", image: images[0], places: 1 },
+    { id: 'u2', name: "Leidy Quiroz", image: images[1], places: 2 },
+    { id: 'u3', name: "Nicolás Meza", image: images[2], places: 3 },
   ];
 //   const USERS2 = [];
   return <UserList items={USERS} />;
